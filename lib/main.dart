@@ -1,5 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:project/latihan/latihan_dua.dart';
+import 'package:project/latihan/latihan_satu.dart';
 import 'package:project/main_layout.dart';
+import 'package:project/row_column_widget/column_satu.dart';
+import 'package:project/row_column_widget/latihan_row_column.dart';
+import 'package:project/row_column_widget/row_satu.dart';
+import 'package:project/stack_widget/stack_tiga.dart';
 
 void main(){
   runApp(MyApp());
@@ -12,7 +18,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: HelloFlutter()
+      home: LatihanDua(
+      )
     );
   }
 }
