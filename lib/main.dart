@@ -1,6 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:project/grid_view/grid_satu.dart';
+import 'package:project/grid_view/grid_screen.dart';
 import 'package:project/latihan/latihan_dua.dart';
 import 'package:project/latihan/latihan_satu.dart';
+import 'package:project/list_widget/detail_screen.dart';
+import 'package:project/list_widget/list_dua.dart';
+import 'package:project/list_widget/list_satu.dart';
+import 'package:project/list_widget/list_screen.dart';
 import 'package:project/main_layout.dart';
 import 'package:project/row_column_widget/column_satu.dart';
 import 'package:project/row_column_widget/latihan_row_column.dart';
@@ -18,7 +24,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: LatihanDua(
+      home: GridProductPage(
       )
     );
   }
